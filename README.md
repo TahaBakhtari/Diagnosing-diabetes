@@ -1,34 +1,32 @@
-Diagnosing Diabetes
-This project leverages machine learning to predict diabetes outcomes based on a dataset. It employs logistic regression to classify whether individuals have diabetes or not.
+# Diagnosing Diabetes
 
-Features
-Data Exploration: Visualizes correlations between features.
-Data Preparation: Splits data into training and testing sets.
-Model Training: Trains a logistic regression model.
-Evaluation: Assesses model accuracy and predicts outcomes.
-How to Use
-Clone the Repository:
-bash
-Copy code
-git clone https://github.com/yourusername/Diagnosing-diabetes.git
-Navigate to the Project Directory:
-bash
-Copy code
-cd Diagnosing-diabetes
-Run the Jupyter Notebook:
-bash
-Copy code
-jupyter notebook diagnosing_diabetes.ipynb
-Dependencies
-numpy
-pandas
-seaborn
-scikit-learn
-matplotlib
-Install the dependencies using:
+## Overview
 
-bash
-Copy code
-pip install numpy pandas seaborn scikit-learn matplotlib
-Dataset
-The project uses diabetes.csv, which contains various health metrics for diabetes prediction.
+The **Diagnosing Diabetes** project leverages machine learning to predict diabetes outcomes using logistic regression. The model classifies whether individuals are likely to have diabetes based on their health metrics.
+
+## Features
+
+- **Data Exploration**: Visualizes correlations between features using heatmaps.
+- **Data Preparation**: Splits data into training and testing sets for model evaluation.
+- **Model Training**: Trains a logistic regression model on the training data.
+- **Evaluation**: Assesses model accuracy and provides prediction results.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/Diagnosing-diabetes.git
+2. **Navigate to the Project Directory:**:
+   ```bash
+   cd Diagnosing-diabetes
+3. **Install Dependencies:**:
+   ```bash
+   pip install numpy pandas seaborn scikit-learn matplotlib
+4. **Run the Jupyter Notebook:**:
+   ```bash
+   jupyter notebook diagnosing_diabetes.ipynb
+
+## Dataset
+The project uses diabetes.csv, containing health metrics such as glucose levels, BMI, and age for diabetes prediction.
