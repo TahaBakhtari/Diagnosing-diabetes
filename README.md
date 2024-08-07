@@ -30,3 +30,5 @@ To run this project locally, follow these steps:
 
 ## Dataset
 The project uses diabetes.csv, containing health metrics such as glucose levels, BMI, and age for diabetes prediction.
+0 : no diabetes 
+1 : diabetes 
