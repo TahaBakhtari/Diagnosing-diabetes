@@ -17,7 +17,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Diagnosing-diabetes.git
+   git clone https://github.com/TahaBakhtari/Diagnosing-diabetes.git
 2. **Navigate to the Project Directory:**:
    ```bash
    cd Diagnosing-diabetes
